@@ -1,0 +1,7 @@
+a=set()
+print(type(a))
+f=lambda x: a.add(x)
+f(1)
+print("f(1) : ",a)
+f(5)
+print("f(5) : ",a)
