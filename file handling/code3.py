@@ -1,0 +1,6 @@
+fh = open('file1.txt')
+inp = fh.read()
+print(len(inp))
+print(inp[:20])
+print(inp[:25])
+print(inp[26: ])

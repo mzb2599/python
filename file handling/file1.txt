@@ -1,0 +1,5 @@
+Reading text from a file:
+Reading specific lines from a file:code1.y
+Counting the number of lines in file:Code2.py
+Reading lines from a file starting with "Read":code1.py
+slicing the contents of file:code3.py
