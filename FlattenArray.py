@@ -4,6 +4,7 @@ def flatten_array(nested_arr):
     flat_arr = []
     
     for element in nested_arr:
+        # Check if the element is a list
         if isinstance(element, list):
             # Recursively flatten the sub-array
             flat_arr.extend(flatten_array(element))
