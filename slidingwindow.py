@@ -1,4 +1,7 @@
 # Sliding window algorithm implementation in Python
+# This function calculates the sum of every contiguous subarray of size k in the given array. It uses a sliding 
+# window approach to efficiently compute the sums without having to recalculate the sum for each subarray from scratch.
+# Time complexity: O(n), where n is the length of the input array.
 def sliding_window(arr, k):
     if not arr or k <= 0:
         return []
